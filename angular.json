@@ -27,9 +27,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/app/views/@theme/styles/styles.scss",
+              "node_modules/nebular-icons/scss/nebular-icons.scss",
+              "node_modules/eva-icons/style/scss/eva-icons.scss",
+              "node_modules/roboto-fontface/css/roboto/roboto-fontface.css",
+              "node_modules/ionicons/dist/scss/ionicons.scss",
+              "node_modules/pace-js/templates/pace-theme-flash.tmpl.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/pace-js/pace.min.js"
+            ]
           },
           "configurations": {
             "production": {
